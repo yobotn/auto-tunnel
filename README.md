@@ -10,7 +10,7 @@ $ sudo ./autotunnel.sh
 ## Documentation
 | VARIABLE | COMMENT |
 | ------ | ------ |
-| **ZIPPED_NGROK_URL** | ngrok will be downloaded from this url if not found |
+| **ZIPPED_NGROK_URL** | ngrok will be downloaded from this url if not found <br/> default is Arm Version <br/> copy your desired version url from this link https://ngrok.com/download |
 | **NGROK_CMD** | ngrok arguments |
 | **DEBUG** | where to show/save the tunnel public url > "**0**">**Terminal** "**1**">**Log file** |
 | **LOG_FILE** | if **DEBUG** is **1**, public url will saved in this file |
